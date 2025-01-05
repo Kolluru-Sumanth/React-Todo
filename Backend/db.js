@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-mongoose.connect("mongodb+srv://kollurusumanth004:Cluster012345@cluster0.6znizvg.mongodb.net/");
+mongoose.connect(mongoUrl);
 
 const todoSchema= new mongoose.Schema({
     title: String,
