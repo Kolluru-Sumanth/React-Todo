@@ -6,7 +6,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   
   async function fetchfunc() {
-    const res = await fetch("http://localhost:3000/Todos");
+    const res = await fetch(backendUrl+"/Todos");
     const json = await res.json();
     setTodos(json);
   }

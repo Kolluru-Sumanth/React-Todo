@@ -10,7 +10,7 @@ const Todos = ({ todos, onupdating }) => {
                 </div>
                 <button
                   onClick={() => {
-                    fetch("http://localhost:3000/Completed", {
+                    fetch(backendUrl+"/Completed", {
                       method: "PUT",
                       body: JSON.stringify({ _id: todo._id }),
                       headers: {

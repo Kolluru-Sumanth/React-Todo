@@ -23,7 +23,7 @@ const CreateTodo = ({ onadding }) => {
         />
         <button
           onClick={() => {
-            fetch("http://localhost:3000/Todo", {
+            fetch(backendUrl+"/Todo", {
               method: "POST",
               body: JSON.stringify({ title, description }),
               headers: {
