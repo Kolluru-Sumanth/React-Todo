@@ -23,7 +23,7 @@ const CreateTodo = ({ onadding }) => {
         />
         <button
           onClick={() => {
-            fetch("https://react-todo-5thd.onrender.com/Todo", {
+            fetch("https://react-todo-backend-2xy8.onrender.com/Todo", {
               method: "POST",
               body: JSON.stringify({ title, description }),
               headers: {
