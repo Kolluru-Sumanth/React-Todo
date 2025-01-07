@@ -1,1 +1,47 @@
+# Node.js dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
 .env
+
+# Build and cache directories
+build/
+dist/
+.cache/
+*.cache
+
+# React-specific files
+# (if you're using Create React App or a similar setup)
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+.DS_Store
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Miscellaneous
+*.bak
+*.tmp
+
+# MongoDB
+/data/db/
