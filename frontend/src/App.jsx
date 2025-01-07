@@ -6,7 +6,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   
   async function fetchfunc() {
-    const res = await fetch("https://react-todo-5thd.onrender.com/Todos");
+    const res = await fetch("https://react-todo-backend-2xy8.onrender.com/Todos");
     const json = await res.json();
     setTodos(json);
   }
